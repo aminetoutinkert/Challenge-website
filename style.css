@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 99vw;
+}
+
+.smallhr {
+    width: 100px;
+    border: 1px solid #00AEEF;
+    margin: 0;
+    padding-left: 0.1rem;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    padding: 1rem;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-links a,
+li {
+    list-style: none;
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.navbar-links {
+    width: 36vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-btn {
+    height: 60%;
+    border: none;
+    background-color: #00AEEF;
+    color: white;
+}
+
+/****************/
+.hero {
+    display: flex;
+    background-image: url(main.jpg);
+    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-btn1 {
+    height: 5vh;
+    width: 20vh;
+    border: none;
+    background-color: #00AEEF;
+    color: white;
+}
+
+.hero-btn2 {
+    height: 5vh;
+    width: 20vh;
+    border: none;
+    border: 1px solid #00AEEF;
+    color: white;
+    background: transparent;
+
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    color: WHITE;
+    width: 50vw;
+    margin-bottom: 0;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    color: WHITE;
+    width: 50vw;
+}
+
+/****************/
+.about {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    gap: 1rem;
+}
+
+.about-img {
+
+    height: 45vh;
+}
+
+.about-left p {
+    width: 30vw;
+    font-size: 1rem;
+}
+
+.about-left h1 {
+    font-size: 2rem;
+}
+
+.subar {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+progress {
+    height: 1rem;
+    width: 80%;
+    background-color: #6BBBE5;
+    border: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #eee;
+}
+
+progress::-webkit-progress-value {
+    background-color: #00AAEE;
+}
+
+/****************/
+
+.stats {
+    justify-self: center;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.stats-block {
+    display: block;
+    text-align: center;
+}
+
+.stats-block h3 {
+    font-size: 1rem;
+
+}
+
+
+/****************/
+
+.services {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(main.jpg);
+
+}
+
+.services-left-grid {
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 10rem);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.services-img {
+    width: 30%;
+}
+
+.services-left-grid h4,
+.services-left-grid h1,
+.services-left h1 {
+    color: white;
+}
+
+/****************/
+.pricing h1 {
+    color: #000000;
+}
+
+.pricing-grid h1 {
+    color: rgb(255, 255, 255);
+    background-color: #00AAEE;
+    height: 100%;
+    margin: 0;
+}
+
+.pricing-grid h3,
+.pricing-grid p {
+    color: rgb(48, 48, 48);
+    background-color: #cacaca;
+    height: 100%;
+    margin: 0;
+
+}
+
+.pricing {
+    text-align: center;
+    height: 70vh;
+    padding: 2REM;
+}
+
+.pricing-grid {
+    padding: 2REM 0;
+    display: grid;
+    grid-template-columns: 35vw 10vw 10vw;
+    grid-template-rows: repeat(11, 1fr);
+    justify-content: center;
+    gap: 0.2rem;
+}
+
+.pricing-btn {
+    height: 4rem;
+    width: 10rem;
+    border: none;
+    background-color: #00AEEF;
+    color: white;
+}
+
+/****************/
+.booking {
+    background-image: url(main.jpg);
+    text-align: center;
+    padding: 2REM;
+}
+
+.booking h1 {
+    color: white;
+    text-align: center;
+
+}
+
+.booking-grid {
+    padding: 2REM;
+    display: grid;
+    grid-template-columns: 35vw 35vw;
+    grid-template-rows: repeat(5, 1fr);
+    justify-content: center;
+    gap: 1rem;
+    color: #c7c7c7;
+    text-align: left;
+}
+
+.booking-form {
+    background-color: hsl(0, 0%, 43%, 0.5);
+    padding: 1rem 0.5rem;
+}
+
+.booking-form7 {
+    background-color: hsl(0, 0%, 43%, 0.5);
+    grid-column: 1/3;
+    grid-row: 4/6;
+}
+
+.booking-btn {
+    height: 4rem;
+    width: 10rem;
+    border: none;
+    background-color: #00AEEF;
+    color: white;
+}
+
+/*************/
+.dent-grid {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 15vw);
+    grid-template-rows: 20vw;
+    gap: 1rem;
+}
+
+.dentist {
+    padding: 2REM;
+    text-align: center;
+}
+
+.card {
+    background-image: url(10.png.webp);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.card h5,
+.card h6 {
+    background-color: hsl(0, 0%, 43%, 0.7);
+    margin: 0;
+    padding: 0.5rem;
+    color: white;
+}
+
+/*************/
+
+.review {
+    padding: 3REM;
+    padding: 2rem 0;
+    background-image: url(main.jpg);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    height: 30vh;
+}
+
+.review p {
+    color: white;
+    width: 50vw;
+}
+
+.review h4 {
+    color: white;
+    margin: 0;
+}
+
+.review img {
+    border-radius: 50%;
+}
+
+/*********/
+.news {
+    text-align: center;
+    padding: 3REM;
+}
+
+.news-grid {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 15vw);
+    grid-template-rows: 20vw;
+    gap: 1rem;
+}
+
+.newscard {
+    background-image: url(4.jpg.webp);
+    background-size: 100% 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.newscard h5 {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    height: 5%;
+}
+
+.newscard p {
+    background-color: hsl(0, 0%, 100%);
+    margin: 0;
+    padding: 0.5rem;
+    color: rgb(0, 0, 0);
+    height: 20%;
+
+}
+
+.newscard-bot{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: center;
+    gap: 1REM;
+    align-items: center;
+}
+.newscard img{
+    width: 10%;
+    height: 50%;
+}
+/*******/
+footer{
+    text-align: center;
+}
+.footer-grid{
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(6,8vw);
+    grid-template-rows: repeat(9,8vw);
+
+}
